@@ -26,7 +26,7 @@ db |  | redis db number
 
 'use strict'
 
-module.export = {
+module.exports = {
     myRedisAdapter: {
         adapter: 'redis',
         host: '127.0.0.1',
@@ -46,6 +46,6 @@ module.export = {
 const akyuu = require('akyuu');
 const redisClient = akyuu.config.connection.get('myRedisAdapter');
 
-module.export = redisClient;
+module.exports = redisClient;
 
 ```
