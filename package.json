@@ -1,0 +1,24 @@
+{
+  "name": "akyuu-adapter-redis",
+  "version": "0.1.0",
+  "description": "redis adapter for akyuu",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akyuujs/akyuu-adapter-redis.git"
+  },
+  "keywords": [
+    "akyuu",
+    "redis"
+  ],
+  "author": "DuanPengfei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akyuujs/akyuu-adapter-redis/issues"
+  },
+  "homepage": "https://github.com/akyuujs/akyuu-adapter-redis#readme",
+  "dependencies": {
+    "ioredis": "^2.5.0"
+  }
+}
